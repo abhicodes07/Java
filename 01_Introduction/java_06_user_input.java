@@ -1,4 +1,3 @@
-package com.company;
 import java.util.Scanner;
 
 public class java_06_user_input {
@@ -8,7 +7,7 @@ public class java_06_user_input {
     // Create a scanner class object
     Scanner sc = new Scanner(System.in);
 
-    /* Interger input - nextInt() method*/
+    /* Integer input - nextInt() method*/
     System.out.println("Taking integer input.");
     System.out.println("Enter number1: ");
     int a = sc.nextInt(); // read an integer
@@ -19,10 +18,10 @@ public class java_06_user_input {
     int sum = a + b;
     System.out.println("Sum: " + sum + "\n\n");
 
-    /* String input - next() and nextline() method */
+    /* String input - next() and nextLine() method */
     System.out.println("Taking string input.");
     System.out.println("\nEnter string1: ");
-    String s1 = sc.next(); // does not reads with white spaces i.e., only reads single word
+    String s1 = sc.next(); // does not read with white spaces i.e., only reads single word
     System.out.println("Half string: " + s1);
 
     System.out.println("Enter string2: ");
