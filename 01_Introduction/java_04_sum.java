@@ -1,4 +1,4 @@
-public class sum {
+public class java_04_sum {
   public static void main(String[] args) {
     int n1;
     int n2;
