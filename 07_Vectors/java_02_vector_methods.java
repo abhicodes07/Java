@@ -7,6 +7,7 @@ public class java_02_vector_methods {
         data.add(23.3);
         data.add(true);
 
+        System.out.println("Size of vector: " + data.size());
         System.out.println(data);
     }
-}3
+}
